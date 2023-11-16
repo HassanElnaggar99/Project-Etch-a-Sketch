@@ -3,16 +3,25 @@ h1 {
 }
 
 .container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid black;
+
+  display: flex;
+  flex-direction: column;
 
 }
 
 .row {
+  flex: 1;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .square {
-  width: 30px;
-  height: 30px;
+  flex: 1;
+  /* width: 30px; */
+  /* height: 30px; */
   border: 1px solid black;
 }

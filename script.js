@@ -1,7 +1,7 @@
 const container = document.createElement("div");
 container.classList.add("container");
 
-let n = 16;
+let n = 4;
 
 for (let i = 0; i < n; i++) {
   const row = document.createElement("div");
