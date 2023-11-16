@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
